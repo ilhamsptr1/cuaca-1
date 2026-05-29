@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+// import plugin lain jika ada, misalnya react()
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  // ... konfigurasi plugin Anda
+  base: '/cuaca-1/', // <-- Tambahkan baris ini sesuai nama repo Anda
 })
